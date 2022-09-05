@@ -1,0 +1,164 @@
+.navbar{
+    background-color: #eeee;
+    border: none;
+    text-align: center;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: blue !important; 
+}
+
+.navbar .navbar-brand {
+    color: black !important;
+}
+
+.navbar-collapse{
+    border-top: none;
+   
+}
+
+#column1{
+    margin-top: 38%;
+   
+}
+
+.fa-apple{
+    margin-right: 5%;
+}
+
+#img1{
+    width: 14px;
+    margin-right: 5%;
+  
+}
+
+#column2{
+    margin-top: 10%;
+}
+
+#col7{
+    margin-top: 5%;
+}
+
+#grid10{
+    margin-top: 20%;
+}
+
+#form-container{
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+@media(min-width:992px){
+    .navbar-right{
+       margin-right: 10%;
+    }
+    
+    #btn1{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-top: 0.1%;
+        
+    }
+    
+    #btn2{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        
+    }
+
+    #column1{
+        margin-top: 15%;
+    }
+
+
+}
+
+
+@media(min-width:1200px){
+    .navbar-right{
+    margin-right: 50px;
+}
+
+#btn1{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    
+}
+
+#btn2{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+}
+
+#column1{
+    margin-top: 8%;
+}
+
+#ph1{
+    margin-left: 24px;
+}
+
+#ph2{
+    margin-left: 20px;
+}
+
+#ph3{
+    margin-left: -30px;
+}
+
+#column2{
+    margin-top: 0;
+   
+}
+
+#img3{
+    width: 60%;
+}
+
+#ph4{
+    margin-right: 25%;
+}
+
+
+
+#grid3{
+    margin-top: 1%;
+}
+
+#btn7{
+    margin-left: 50%;
+}
+
+#col4{
+    margin-left: 20%;
+}
+
+#col-5{
+    margin-top: -8%;
+}
+
+#col9{
+    margin-top: 20%;
+}
+
+.footer{
+    margin-top: 59%;
+    color: #fff;
+}
+
+.footer-bottom{
+    background-color: whitesmoke;
+}
+
+#form-container{
+    width: 30%;
+}
+
+
+}

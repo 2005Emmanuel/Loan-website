@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Django app</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" class="css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: white; font-family: 'Libre Franklin', sans-serif;
+font-family: 'Varela Round', sans-serif;">
+
+<div class="container"  style="background-image: linear-gradient(blue,whitesmoke);margin-top: 5%;" id="form-container">
+    <h1 style="font-weight: bold; color: black;">Create Your account </h1>
+    <form>
+      <div class="form-group">
+        <label for="email">Firstname:</label>
+        <input type="firstname" class="form-control" id="firstname" placeholder="Enter Firstname" name="Firstname">
+      </div>
+      <div class="form-group">
+        <label for="password">Lastname:</label>
+        <input type="password" class="form-control" id="lastname" placeholder="Enter Lastname" name="Lastname">
+      </div>
+      <div class="form-group">
+        <label for="Phonenumber">Phonenumber:</label>
+        <input type="Phonenumber" class="form-control" id="phonenumber" placeholder="Enter Phonenumber" name="Phonenumber">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="Email" class="form-control" id="email" placeholder="Enter Email" name="Email">
+      </div>
+      <div class="form-group">
+        <label for="Password">Password:</label>
+        <input type="Password" class="form-control" id="password" placeholder="Enter Password" name="Password">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-default" style="margin-bottom: 5%; background-image: linear-gradient(blue,whitesmoke);color: white; outline: none;">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
